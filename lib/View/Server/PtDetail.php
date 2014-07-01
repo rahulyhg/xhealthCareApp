@@ -21,17 +21,13 @@ class View_Server_PtDetail extends \View{
         // // throw new \Exception($this->api->xhealthCareAppauth->model->id, 1);
         $detail->setModel($p);
         $btn1->js('click',$detail->js()->toggle());
+        $detail->js(true)->hide();   
         
 
         $btn2=$col2->add('Button')->set('Patients Prescription');
-		$pre=$col2->add('Grid');
-        $pre->js(true)->hide();   
+        $pre=$col2->add('Grid');
         $pre->setModel($this->api->xhealthCareAppauth->model->ref('healthCareApp/Prescription'));
         $btn2->js('click',$pre->js()->toggle());
-        
-
-
-
         
 
 	

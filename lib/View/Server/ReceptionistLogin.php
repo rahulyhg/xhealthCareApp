@@ -7,6 +7,7 @@ class View_Server_ReceptionistLogin extends \View{
 		parent::init();
 		
 		$this->add('H1')->set('Receptionist Login');
+		
 		$form=$this->add('Form');
 		$form->addField('line','email')->validateNotNull('Required Field');
 		$form->addField('password','password')->validateNotNull('Required Field');
@@ -26,6 +27,6 @@ class View_Server_ReceptionistLogin extends \View{
 		 	
 				// Redirect to Dashboard
 				$this->js()->univ()->redirect($this->api->url(null,array('subpage'=>'xhealthcare-rsdashboard')))->execute();
-			}
+		}
 	}
 }

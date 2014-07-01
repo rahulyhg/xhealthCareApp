@@ -61,14 +61,5 @@ class Model_Patient extends \Model_Table{
         
       }
   }
-
-
-
-
-         }
-
-
-
-
-
+}
 	 

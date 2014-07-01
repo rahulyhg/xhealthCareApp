@@ -21,6 +21,7 @@ class page_healthCareApp_page_owner_main extends page_componentBase_page_owner_m
 		$menu->addMenuItem('healthCareApp_page_owner_patient','Patient');
 		$menu->addMenuItem('healthCareApp_page_owner_assignpatientstostaff','Assign patients to staff');
 		$menu->addMenuItem('healthCareApp_page_owner_report','Report');
+		$menu->addMenuItem('healthCareApp_page_owner_bill','Bill');
 		
 
 

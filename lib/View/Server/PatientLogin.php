@@ -14,7 +14,7 @@ class View_Server_PatientLogin extends \View{
 		// $form->addSubmit('login');
 		$form->add('Button')->set('Login')
 		->addStyle(array('margin-top'=>'25px','margin-left'=>'37px'))
-			->js('click')->submit();
+		->js('click')->submit();
 		
 		
 
